@@ -81,6 +81,7 @@
 	input[type="password"],
 	input[type="email"],
 	input[type="tel"],
+	input[type="username"],
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
@@ -234,4 +235,5 @@
 	:-ms-input-placeholder {
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
+
 	}
