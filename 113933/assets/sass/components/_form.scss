@@ -134,6 +134,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="username"],
 	select {
 		height: _size(element-height);
 	}
@@ -237,3 +238,4 @@
 		opacity: 1.0;
 
 	}
+
